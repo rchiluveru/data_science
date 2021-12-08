@@ -36,7 +36,7 @@ def predict():
     if pred[0]>0.5:
     	prediction='Yes its a cat!'
     else :
-    	prediction='Nah! looks like a dog :/'
+    	prediction='Nah! its not a cat'
 
     return render_template('index.html', prediction_text='Answer : {}'.format(prediction))
 
